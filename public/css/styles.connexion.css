@@ -1,0 +1,130 @@
+body{
+    background-image: url("../images/img-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+#form-connect{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2),  
+                0 1px 1px rgba(0, 0, 0, .2),
+                0 3px 0 #fff,
+                0 4px 0 rgba(0, 0, 0, .2),
+                0 6px 0 #fff,  
+                0 7px 0 rgba(0, 0, 0, .2);
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2vh;
+    width: 45%;
+    margin: 10vh auto 0 auto;
+    background-color: white;
+    /* border-radius: 10px; */
+}
+#hidden{
+    flex: 1;
+}
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #052426;
+    opacity: 0.4;
+    z-index: -1;
+}
+#logo{
+    /* width: 5vw; */
+    height: 12vh;
+    flex: 0.9;
+}
+#entete > h1{
+    flex: 12;
+    text-align: center;
+    font-size: 4em;
+}
+.lienX{
+    width: 65%;
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+a{
+    text-decoration: none;
+    color: white;
+} 
+#entete{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #052426;
+    height: 12vh;
+}
+.bloc{
+    width: 80%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2vh;
+    margin: auto;
+    padding-bottom: 3vh;
+}
+#bouton-connect{
+    width: 30%;
+    border: none;
+    color: white;
+    background-color: #51bfd0;
+    font-size: 2em;
+    padding: 0.5em;
+}
+#login,#password{
+    border: none;
+    outline: none;
+    flex: 8;
+    font-size: 1.8em;
+}
+#form-connect .entete{
+    background-color: #51bfd0;
+    color: white;
+    padding-left: 5vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6vh;
+    height: 12vh;
+    font-size: 2em;
+}
+.inscrire{
+    text-decoration: none;
+    color: grey;
+    margin-left: 5vw;
+    font-size: 1.8em;
+}
+small{
+    color: red;
+    height: 2v;
+}
+.champ{
+    display: flex;
+    padding: 0.5%;
+    box-shadow: 0 2px 4px grey;
+    width: 100%;
+}
+.icone{
+    flex: 1;
+    transform: scale(0.6);
+}
+.div-erreur{
+    height: 4vh;
+}
+.liste-joueurs{
+    height: 50vh;
+    border: 1px solid;
+    width: 90%;
+    margin: auto;
+}
+#h2-ins{
+text-align: center;
+}

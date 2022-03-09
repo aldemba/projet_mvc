@@ -1,0 +1,50 @@
+{
+    "users":[
+        {
+            "prenom":"Abdoulaye",
+            "nom":"Mangane",
+            "login":"abmangane12@gmail.com",
+            "password":"Joueur12",
+            "role":"role_joueur",
+            "score":15
+        },
+        {
+            "prenom":"Aldemba",
+            "nom":"Seck",
+            "login":"aliounealdembaseck@gmail.com",
+            "password":"Aldemba17",
+            "role":"role_joueur",
+            "score":5
+        },
+        {
+            "prenom":"Micheal",
+            "nom":"Jackson",
+            "login":"jackson@gmail.com",
+            "password":"Aldemba17",
+            "role":"role_joueur",
+            "score":9
+        },
+        {
+            "prenom":"Pablo",
+            "nom":"Escobar",
+            "login":"escoba@gmail.com",
+            "password":"Aldemba17",
+            "role":"role_joueur",
+            "score":3
+        }
+    ],
+    "questions":[
+        {
+            "question":"Quelle est le meilleur langage de programmation ?",
+            "nombreDePpoint": 5,
+            "typeDeReponse":"chaine",
+            "reponse":"javascript"
+        },
+        {
+            "question":"En quelle année est née JavaScript ?",
+            "nombreDePpoint": 5,
+            "typeDeReponse":"nombre",
+            "reponse":1995
+        }
+    ]
+}

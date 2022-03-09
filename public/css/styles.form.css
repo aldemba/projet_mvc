@@ -1,0 +1,115 @@
+.section{
+    width: 95%;
+    margin: 3vh auto 0 auto;
+}
+.section > .entete{
+    display: flex;
+    padding: 0 2%;
+    background-color: #51bfd0;
+    color: white;
+    padding-left: 5vw;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+}
+.section > .entete h1{
+    font-size: 2.4em;
+    flex: 4;
+}
+.section > .entete span{
+    flex: 1;
+    text-align: center;
+}
+.section > .entete span > a{
+    font-size: 2em;
+    padding: 0.3em;
+    background-color: #39ddd6;
+    border-radius: 10px;
+}
+li{
+    list-style-type: none;
+}
+.element-avatar > a{
+    color: black;
+    font-size: 1.8em;
+    line-height: 2em;
+    width: 100%;
+}
+.corps{
+    background-color: rgb(230, 236, 236);
+    padding: 1.5% 3%;
+    display: flex;
+    justify-content: space-around;
+}
+.avatar{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px grey;
+    background-color: white;
+}
+.entete-avatar{
+    background-image: linear-gradient(to bottom, white, #51bfd0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh 0;
+    color: white;
+    font-size: 1.8em;
+}
+#img-avatar{
+    border: 1px solid grey;
+    padding: 2%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.entete-avatar img{
+    border-radius: 50%;
+    width: 10vw;
+    height: 20vh;
+}
+.element-avatar{
+    display: flex;
+    align-items: center;
+    padding: 0 8% 0 5%;
+    justify-content: space-between;
+    margin: 3vh auto;
+    height: 4em;
+    cursor: pointer;
+}
+.element-avatar:hover{
+    background-color: rgba(250, 235, 215, 0.424);
+    border-left: 4px solid #39ddd6;
+}
+.element-avatar > img{
+    transform: scale(1.6);
+}
+/* .div-dynamic{
+    width: 60%;
+    line-height: 1vh;
+    background-color: white;
+} */
+.div-dynamic h2{
+    text-align: center;
+    font-size: 2.4em;
+
+}
+table,td,th{
+    width: 80%;
+    margin: auto;
+    flex: 1;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 2vh;
+}
+
+th{
+    font-size: 1.8em;
+}
+
+table{
+    border: 1px solid #51bfd0;
+}
+tr{
+    display: flex;
+}
